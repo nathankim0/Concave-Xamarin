@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "Vc+9m5aP1gLKZmGNkEjIw/frwY6zdJSOWOh8PQHDrAKvP/FTAZXbK6Cm3/nqwRQBv6ki8R9tOVvQVWvvmJB6jg==",
+  "success": true,
+  "projectFilePath": "/Users/nathan-kim/Projects/dream/dream/dream.csproj",
+  "expectedPackageFiles": [
+    "/Users/nathan-kim/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/skiasharp/2.80.2/skiasharp.2.80.2.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/skiasharp.views.forms/2.80.2/skiasharp.views.forms.2.80.2.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/xamarin.forms/4.8.0.1451/xamarin.forms.4.8.0.1451.nupkg.sha512",
+    "/Users/nathan-kim/.nuget/packages/xameffects/1.6.3/xameffects.1.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

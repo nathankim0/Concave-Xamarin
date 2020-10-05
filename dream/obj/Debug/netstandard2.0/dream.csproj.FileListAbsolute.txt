@@ -1,0 +1,14 @@
+/Users/nathan-kim/Projects/dream/dream/obj/Debug/netstandard2.0/dream.csprojAssemblyReference.cache
+/Users/nathan-kim/Projects/dream/dream/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/nathan-kim/Projects/dream/dream/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/nathan-kim/Projects/dream/dream/obj/Debug/netstandard2.0/dream.AssemblyInfoInputs.cache
+/Users/nathan-kim/Projects/dream/dream/obj/Debug/netstandard2.0/dream.AssemblyInfo.cs
+/Users/nathan-kim/Projects/dream/dream/obj/Debug/netstandard2.0/dream.csproj.CoreCompileInputs.cache
+/Users/nathan-kim/Projects/dream/dream/bin/Debug/netstandard2.0/dream.deps.json
+/Users/nathan-kim/Projects/dream/dream/bin/Debug/netstandard2.0/dream.dll
+/Users/nathan-kim/Projects/dream/dream/bin/Debug/netstandard2.0/ref/dream.dll
+/Users/nathan-kim/Projects/dream/dream/bin/Debug/netstandard2.0/dream.pdb
+/Users/nathan-kim/Projects/dream/dream/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/nathan-kim/Projects/dream/dream/obj/Debug/netstandard2.0/dream.dll
+/Users/nathan-kim/Projects/dream/dream/obj/Debug/netstandard2.0/ref/dream.dll
+/Users/nathan-kim/Projects/dream/dream/obj/Debug/netstandard2.0/dream.pdb

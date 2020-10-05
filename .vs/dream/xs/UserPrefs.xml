@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{946543C5-2D8B-46FB-AFC4-C462D8F5BB10}|Default">
+  <MonoDevelop.Ide.ItemProperties.dream.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="dream/MainPage.xaml.cs">
+    <Files>
+      <File FileName="dream/MainPage.xaml.cs" Line="12" Column="46" />
+      <File FileName="dream/AssemblyInfo.cs" />
+      <File FileName="dream/MainPage.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="dream" expanded="True">
+            <Node name="dream" expanded="True">
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.dream.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
