@@ -1,12 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="dream.MainPage"
-             xmlns:sk="clr-namespace:SkiaSharp;assembly=SkiaSharp"
-    xmlns:skv="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+    xmlns:skia="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+             xmlns:tt="clr-namespace:TouchTracking"
 >
-    <ContentPage.Content>
-        <Grid>
-            <skv:SKCanvasView x:Name="skCanvas" PaintSurface="SkCanvas_PaintSurface" />
-        </Grid>
-    </ContentPage.Content>
+    <Grid BackgroundColor="White">
+        <skia:SKCanvasView x:Name="canvasView"
+                           PaintSurface="OnCanvasViewPaintSurface" />
+        <Grid.Effects>
+            <tt:TouchEffect Capture="True"
+                            TouchAction="OnTouchEffectAction" />
+        </Grid.Effects>
+    </Grid>
 
 </ContentPage>

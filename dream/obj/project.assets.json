@@ -89,7 +89,7 @@
           "lib/netstandard2.0/System.Memory.dll": {}
         }
       },
-      "System.Numerics.Vectors/4.5.0": {
+      "System.Numerics.Vectors/4.4.0": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/System.Numerics.Vectors.dll": {}
@@ -107,18 +107,6 @@
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3.2": {
-        "type": "package",
-        "dependencies": {
-          "System.Numerics.Vectors": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Xamarin.Essentials.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Xamarin.Essentials.dll": {}
-        }
-      },
       "Xamarin.Forms/4.8.0.1451": {
         "type": "package",
         "compile": {
@@ -134,18 +122,6 @@
         "build": {
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
-        }
-      },
-      "XamEffects/1.6.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.5.0.77107"
-        },
-        "compile": {
-          "lib/netstandard1.0/XamEffects.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/XamEffects.dll": {}
         }
       }
     }
@@ -463,10 +439,10 @@
         "version.txt"
       ]
     },
-    "System.Numerics.Vectors/4.5.0": {
-      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+    "System.Numerics.Vectors/4.4.0": {
+      "sha512": "UiLzLW+Lw6HLed1Hcg+8jSRttrbuXv7DANVj0DkL9g6EnnzbL75EB7EWsw5uRbhxd/4YdG8li5XizGWepmG3PQ==",
       "type": "package",
-      "path": "system.numerics.vectors/4.5.0",
+      "path": "system.numerics.vectors/4.4.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -483,15 +459,12 @@
         "lib/netstandard2.0/System.Numerics.Vectors.xml",
         "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
         "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
-        "lib/uap10.0.16299/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
         "lib/xamarintvos10/_._",
         "lib/xamarinwatchos10/_._",
         "ref/MonoAndroid10/_._",
         "ref/MonoTouch10/_._",
-        "ref/net45/System.Numerics.Vectors.dll",
-        "ref/net45/System.Numerics.Vectors.xml",
         "ref/net46/System.Numerics.Vectors.dll",
         "ref/net46/System.Numerics.Vectors.xml",
         "ref/netcoreapp2.0/_._",
@@ -499,12 +472,11 @@
         "ref/netstandard1.0/System.Numerics.Vectors.xml",
         "ref/netstandard2.0/System.Numerics.Vectors.dll",
         "ref/netstandard2.0/System.Numerics.Vectors.xml",
-        "ref/uap10.0.16299/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.numerics.vectors.4.5.0.nupkg.sha512",
+        "system.numerics.vectors.4.4.0.nupkg.sha512",
         "system.numerics.vectors.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -533,54 +505,6 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "Xamarin.Essentials/1.5.3.2": {
-      "sha512": "BSLgDJUOPFRwTpQaftM+s4qb/MsTjrqXulEYDOcK6KF3i0Orf75zo3RwRfqnQ8WfpoEFxW/v0jgcPWCvOMgHxg==",
-      "type": "package",
-      "path": "xamarin.essentials/1.5.3.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "icon.png",
-        "lib/monoandroid10.0/Xamarin.Essentials.dll",
-        "lib/monoandroid10.0/Xamarin.Essentials.pdb",
-        "lib/monoandroid10.0/Xamarin.Essentials.xml",
-        "lib/monoandroid80/Xamarin.Essentials.dll",
-        "lib/monoandroid80/Xamarin.Essentials.pdb",
-        "lib/monoandroid80/Xamarin.Essentials.xml",
-        "lib/monoandroid81/Xamarin.Essentials.dll",
-        "lib/monoandroid81/Xamarin.Essentials.pdb",
-        "lib/monoandroid81/Xamarin.Essentials.xml",
-        "lib/monoandroid90/Xamarin.Essentials.dll",
-        "lib/monoandroid90/Xamarin.Essentials.pdb",
-        "lib/monoandroid90/Xamarin.Essentials.xml",
-        "lib/netstandard1.0/Xamarin.Essentials.dll",
-        "lib/netstandard1.0/Xamarin.Essentials.pdb",
-        "lib/netstandard1.0/Xamarin.Essentials.xml",
-        "lib/netstandard2.0/Xamarin.Essentials.dll",
-        "lib/netstandard2.0/Xamarin.Essentials.pdb",
-        "lib/netstandard2.0/Xamarin.Essentials.xml",
-        "lib/tizen40/Xamarin.Essentials.dll",
-        "lib/tizen40/Xamarin.Essentials.pdb",
-        "lib/tizen40/Xamarin.Essentials.xml",
-        "lib/uap10.0.16299/Xamarin.Essentials.dll",
-        "lib/uap10.0.16299/Xamarin.Essentials.pdb",
-        "lib/uap10.0.16299/Xamarin.Essentials.pri",
-        "lib/uap10.0.16299/Xamarin.Essentials.xml",
-        "lib/xamarinios10/Xamarin.Essentials.dll",
-        "lib/xamarinios10/Xamarin.Essentials.pdb",
-        "lib/xamarinios10/Xamarin.Essentials.xml",
-        "lib/xamarintvos10/Xamarin.Essentials.dll",
-        "lib/xamarintvos10/Xamarin.Essentials.pdb",
-        "lib/xamarintvos10/Xamarin.Essentials.xml",
-        "lib/xamarinwatchos10/Xamarin.Essentials.dll",
-        "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
-        "lib/xamarinwatchos10/Xamarin.Essentials.xml",
-        "readme.txt",
-        "xamarin.essentials.1.5.3.2.nupkg.sha512",
-        "xamarin.essentials.nuspec"
       ]
     },
     "Xamarin.Forms/4.8.0.1451": {
@@ -898,39 +822,13 @@
         "xamarin.forms.4.8.0.1451.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
-    },
-    "XamEffects/1.6.3": {
-      "sha512": "XcoxG/ugnmrh+j7q0dhFaU8ouUIIFrBwJvc0FtXrhusvSNov5L8gtynf0hfiu3Ey1Z3R39J1qp8tYCovhuJFRQ==",
-      "type": "package",
-      "path": "xameffects/1.6.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid/XamEffects.Droid.dll",
-        "lib/MonoAndroid/XamEffects.Droid.pdb",
-        "lib/MonoAndroid/XamEffects.dll",
-        "lib/MonoAndroid/XamEffects.pdb",
-        "lib/MonoTouch/XamEffects.dll",
-        "lib/MonoTouch/XamEffects.iOS.dll",
-        "lib/MonoTouch/XamEffects.iOS.pdb",
-        "lib/MonoTouch/XamEffects.pdb",
-        "lib/Xamarin.IOS/XamEffects.dll",
-        "lib/Xamarin.IOS/XamEffects.iOS.dll",
-        "lib/Xamarin.IOS/XamEffects.iOS.pdb",
-        "lib/Xamarin.IOS/XamEffects.pdb",
-        "lib/netstandard1.0/XamEffects.dll",
-        "lib/netstandard1.0/XamEffects.pdb",
-        "xameffects.1.6.3.nupkg.sha512",
-        "xameffects.nuspec"
-      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
+      "SkiaSharp >= 2.80.2",
       "SkiaSharp.Views.Forms >= 2.80.2",
-      "XamEffects >= 1.6.3",
-      "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.Forms >= 4.8.0.1451"
     ]
   },
@@ -975,17 +873,13 @@
             "version": "[2.0.3, )",
             "autoReferenced": true
           },
-          "SkiaSharp.Views.Forms": {
+          "SkiaSharp": {
             "target": "Package",
             "version": "[2.80.2, )"
           },
-          "XamEffects": {
+          "SkiaSharp.Views.Forms": {
             "target": "Package",
-            "version": "[1.6.3, )"
-          },
-          "Xamarin.Essentials": {
-            "target": "Package",
-            "version": "[1.5.3.2, )"
+            "version": "[2.80.2, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

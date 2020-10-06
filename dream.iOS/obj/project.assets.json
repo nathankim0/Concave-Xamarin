@@ -192,27 +192,12 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "XamEffects/1.6.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.5.0.77107"
-        },
-        "compile": {
-          "lib/Xamarin.IOS/XamEffects.dll": {},
-          "lib/Xamarin.IOS/XamEffects.iOS.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.IOS/XamEffects.dll": {},
-          "lib/Xamarin.IOS/XamEffects.iOS.dll": {}
-        }
-      },
       "dream/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "SkiaSharp": "2.80.2",
           "SkiaSharp.Views.Forms": "2.80.2",
-          "XamEffects": "1.6.3",
-          "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
         "compile": {
@@ -396,27 +381,12 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "XamEffects/1.6.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.5.0.77107"
-        },
-        "compile": {
-          "lib/Xamarin.IOS/XamEffects.dll": {},
-          "lib/Xamarin.IOS/XamEffects.iOS.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.IOS/XamEffects.dll": {},
-          "lib/Xamarin.IOS/XamEffects.iOS.dll": {}
-        }
-      },
       "dream/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "SkiaSharp": "2.80.2",
           "SkiaSharp.Views.Forms": "2.80.2",
-          "XamEffects": "1.6.3",
-          "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
         "compile": {
@@ -603,27 +573,12 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "XamEffects/1.6.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.5.0.77107"
-        },
-        "compile": {
-          "lib/Xamarin.IOS/XamEffects.dll": {},
-          "lib/Xamarin.IOS/XamEffects.iOS.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.IOS/XamEffects.dll": {},
-          "lib/Xamarin.IOS/XamEffects.iOS.dll": {}
-        }
-      },
       "dream/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "SkiaSharp": "2.80.2",
           "SkiaSharp.Views.Forms": "2.80.2",
-          "XamEffects": "1.6.3",
-          "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
         "compile": {
@@ -810,27 +765,12 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "XamEffects/1.6.3": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.5.0.77107"
-        },
-        "compile": {
-          "lib/Xamarin.IOS/XamEffects.dll": {},
-          "lib/Xamarin.IOS/XamEffects.iOS.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.IOS/XamEffects.dll": {},
-          "lib/Xamarin.IOS/XamEffects.iOS.dll": {}
-        }
-      },
       "dream/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "SkiaSharp": "2.80.2",
           "SkiaSharp.Views.Forms": "2.80.2",
-          "XamEffects": "1.6.3",
-          "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
         "compile": {
@@ -1356,31 +1296,6 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
         "xamarin.forms.4.6.0.1141.nupkg.sha512",
         "xamarin.forms.nuspec"
-      ]
-    },
-    "XamEffects/1.6.3": {
-      "sha512": "XcoxG/ugnmrh+j7q0dhFaU8ouUIIFrBwJvc0FtXrhusvSNov5L8gtynf0hfiu3Ey1Z3R39J1qp8tYCovhuJFRQ==",
-      "type": "package",
-      "path": "xameffects/1.6.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid/XamEffects.Droid.dll",
-        "lib/MonoAndroid/XamEffects.Droid.pdb",
-        "lib/MonoAndroid/XamEffects.dll",
-        "lib/MonoAndroid/XamEffects.pdb",
-        "lib/MonoTouch/XamEffects.dll",
-        "lib/MonoTouch/XamEffects.iOS.dll",
-        "lib/MonoTouch/XamEffects.iOS.pdb",
-        "lib/MonoTouch/XamEffects.pdb",
-        "lib/Xamarin.IOS/XamEffects.dll",
-        "lib/Xamarin.IOS/XamEffects.iOS.dll",
-        "lib/Xamarin.IOS/XamEffects.iOS.pdb",
-        "lib/Xamarin.IOS/XamEffects.pdb",
-        "lib/netstandard1.0/XamEffects.dll",
-        "lib/netstandard1.0/XamEffects.pdb",
-        "xameffects.1.6.3.nupkg.sha512",
-        "xameffects.nuspec"
       ]
     },
     "dream/1.0.0": {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yv0d+z8iI0jddMqFNMYpx6J81jp7jK6VIT0jHYMqJ3xnsQHURQJdeFCqGaApsBQaGVHW3mmc2m5Wft7nnzprug==",
+  "dgSpecHash": "BFVDJ2C5/tFRJWv270JVubM8tGDH3IrolVC0v8sWSH+B4Puxhvik7g6Fz7QRxaEo+N9WZSPJIIvNQ/2MfvMwjQ==",
   "success": true,
   "projectFilePath": "/Users/nathan-kim/Projects/dream/dream.Android/dream.Android.csproj",
   "expectedPackageFiles": [
@@ -45,8 +45,7 @@
     "/Users/nathan-kim/.nuget/packages/xamarin.android.support.versionedparcelable/28.0.0.3/xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "/Users/nathan-kim/.nuget/packages/xamarin.android.support.viewpager/28.0.0.3/xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
     "/Users/nathan-kim/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/nathan-kim/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512",
-    "/Users/nathan-kim/.nuget/packages/xameffects/1.6.3/xameffects.1.6.3.nupkg.sha512"
+    "/Users/nathan-kim/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
   "logs": [
     {

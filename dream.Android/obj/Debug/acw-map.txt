@@ -841,6 +841,3 @@ xamarin.forms.platform.android.appcompat.TabbedPageRenderer;crc64720bb2db43a66fe
 Xamarin.Forms.Platform.Android.AppCompat.ViewRenderer`2, Xamarin.Forms.Platform.Android;crc64720bb2db43a66fe9.ViewRenderer_2
 Xamarin.Forms.Platform.Android.AppCompat.ViewRenderer`2;crc64720bb2db43a66fe9.ViewRenderer_2
 xamarin.forms.platform.android.appcompat.ViewRenderer_2;crc64720bb2db43a66fe9.ViewRenderer_2
-XamEffects.Droid.Renderers.BorderViewRenderer, XamEffects.Droid;crc6450eb4ad7d396ddb2.BorderViewRenderer
-XamEffects.Droid.Renderers.BorderViewRenderer;crc6450eb4ad7d396ddb2.BorderViewRenderer
-xameffects.droid.renderers.BorderViewRenderer;crc6450eb4ad7d396ddb2.BorderViewRenderer

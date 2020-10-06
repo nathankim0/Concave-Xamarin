@@ -75,14 +75,12 @@
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/System.IO.Compression.FileSystem.dll
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/System.IO.Compression.FileSystem.pdb
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/System.IO.Compression.pdb
-/Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/System.Linq.dll
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/System.Net.Http.dll
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/System.Net.Http.pdb
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/System.Numerics.dll
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/System.Numerics.pdb
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/System.Numerics.Vectors.dll
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/System.Numerics.Vectors.pdb
-/Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/System.ObjectModel.dll
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/System.pdb
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/System.Runtime.dll
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/System.Runtime.Serialization.dll
@@ -143,10 +141,6 @@
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/Xamarin.Forms.Platform.dll
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/Xamarin.Forms.Xaml.dll
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/Xamarin.Forms.Xaml.pdb
-/Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/XamEffects.dll
-/Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/XamEffects.Droid.dll
-/Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/XamEffects.Droid.pdb
-/Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/assets/XamEffects.pdb
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/typemaps.arm64-v8a.s
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/typemaps.armeabi-v7a.s
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/typemaps.x86.s
@@ -348,7 +342,6 @@
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/VisualElementTracker_AttachTracker.java
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/WebViewRenderer.java
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/src/crc643f46942d9dd1fff9/WebViewRenderer_JavascriptResult.java
-/Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/src/crc6450eb4ad7d396ddb2/BorderViewRenderer.java
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/src/crc64720bb2db43a66fe9/ButtonRenderer.java
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/src/crc64720bb2db43a66fe9/CarouselPageRenderer.java
 /Users/nathan-kim/Projects/dream/dream.Android/obj/Debug/android/src/crc64720bb2db43a66fe9/FormsFragmentPagerAdapter_1.java

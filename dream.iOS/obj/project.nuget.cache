@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fenpgCLXYGX5Ya2o5mFHsSwUBCCKsCH6f98Eno8uBiz3vngQW0QfN7RuH97a5PApSfd8igc1PvwwzBNrbyoAgA==",
+  "dgSpecHash": "cvYalzyNZ1n6/mdXtgNqe2XnA1L7tYRdHLH4v4sNxCciRNDHQgEfw5Puh1OQXN2+UhvIaqkHWiR4dB+HJ84A/Q==",
   "success": true,
   "projectFilePath": "/Users/nathan-kim/Projects/dream/dream.iOS/dream.iOS.csproj",
   "expectedPackageFiles": [
@@ -8,8 +8,7 @@
     "/Users/nathan-kim/.nuget/packages/skiasharp.views/2.80.2/skiasharp.views.2.80.2.nupkg.sha512",
     "/Users/nathan-kim/.nuget/packages/skiasharp.views.forms/2.80.2/skiasharp.views.forms.2.80.2.nupkg.sha512",
     "/Users/nathan-kim/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "/Users/nathan-kim/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512",
-    "/Users/nathan-kim/.nuget/packages/xameffects/1.6.3/xameffects.1.6.3.nupkg.sha512"
+    "/Users/nathan-kim/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
   "logs": [
     {
