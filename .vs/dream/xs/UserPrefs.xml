@@ -1,14 +1,13 @@
-﻿<Properties StartupConfiguration="{946543C5-2D8B-46FB-AFC4-C462D8F5BB10}|Default">
-  <MonoDevelop.Ide.ItemProperties.dream.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="dream.iOS/TouchEffect.cs">
+﻿<Properties StartupConfiguration="{49FAF6B3-3BF6-4EC6-B6BC-AF55D8B8468A}|Default">
+  <MonoDevelop.Ide.ItemProperties.dream.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.829B12C9-6688-4DB6-9F39-696AC186057A" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="dream/MainPage.xaml.cs">
     <Files>
       <File FileName="dream/MainPage.xaml" Line="8" Column="63" />
-      <File FileName="dream/MainPage.xaml.cs" Line="33" Column="43" />
+      <File FileName="dream/MainPage.xaml.cs" Line="55" Column="49" />
       <File FileName="dream/TouchEffect.cs" Line="9" Column="47" />
       <File FileName="dream/TouchActionEventArgs.cs" Line="4" Column="24" />
       <File FileName="dream/TouchActionEventHandler.cs" Line="1" Column="24" />
       <File FileName="dream/TouchActionType.cs" Line="1" Column="24" />
-      <File FileName="dream/TouchPoint.cs" Line="7" Column="18" />
       <File FileName="dream/App.cs" Line="18" Column="55" />
       <File FileName="dream.Android/TouchEffect.cs" Line="194" Column="31" />
       <File FileName="dream.iOS/TouchEffect.cs" Line="26" Column="1" />
@@ -19,17 +18,16 @@
         <State name="__root__">
           <Node name="dream" expanded="True">
             <Node name="dream" expanded="True">
-              <Node name="MainPage.xaml" expanded="True" />
-              <Node name="TouchEffect.cs" selected="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
             </Node>
-            <Node name="dream.Android" expanded="True" />
-            <Node name="dream.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.dream.Android PreferredExecutionTarget="Android.LMQ925L6127876c" />
+  <MonoDevelop.Ide.ItemProperties.dream.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

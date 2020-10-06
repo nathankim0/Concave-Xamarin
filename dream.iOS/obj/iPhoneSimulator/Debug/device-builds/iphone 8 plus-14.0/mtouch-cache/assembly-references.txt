@@ -27,3 +27,5 @@
 /Users/nathan-kim/.nuget/packages/skiasharp/2.80.2/lib/xamarinios1.0/SkiaSharp.dll
 /Users/nathan-kim/.nuget/packages/skiasharp.views.forms/2.80.2/lib/xamarinios1.0/SkiaSharp.Views.Forms.dll
 /Users/nathan-kim/.nuget/packages/skiasharp.views/2.80.2/lib/xamarinios1.0/SkiaSharp.Views.iOS.dll
+/Users/nathan-kim/.nuget/packages/xamarin.essentials/1.5.3.2/lib/xamarinios10/Xamarin.Essentials.dll
+/Library/Frameworks/Xamarin.iOS.framework/Versions/14.0.0.0/lib/mono/Xamarin.iOS/OpenTK-1.0.dll

@@ -7,6 +7,7 @@ using TouchTracking;
 
 using SkiaSharp;
 using SkiaSharp.Views.Forms;
+using Xamarin.Essentials;
 
 namespace dream
 {
@@ -49,15 +50,17 @@ namespace dream
             };
             SKPath path = new SKPath();
 
-            for(int x = 10; x < 1080; x += 100)
+            var mainDisplayInfo = DeviceDisplay.MainDisplayInfo;
+
+            for (int x = 10; x < mainDisplayInfo.Width; x += 100)
             {
                 path.MoveTo(x, 0);
-                path.LineTo(x, 2000);
+                path.LineTo(x, (float)mainDisplayInfo.Height);
             }
-            for (int y = 10; y < 2000; y += 100)
+            for (int y = 10; y < mainDisplayInfo.Height; y += 100)
             {
                 path.MoveTo(0, y);
-                path.LineTo(1080, y);
+                path.LineTo((float)mainDisplayInfo.Width, y);
             }
             canvas.DrawPath(path, pathStroke);
 

@@ -846,6 +846,7 @@
         "dependencies": {
           "SkiaSharp": "2.80.2",
           "SkiaSharp.Views.Forms": "2.80.2",
+          "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
         "compile": {
