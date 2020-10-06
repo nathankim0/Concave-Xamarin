@@ -5,7 +5,7 @@
 >
     <Grid BackgroundColor="White">
         <skia:SKCanvasView x:Name="canvasView"
-                           PaintSurface="OnCanvasViewPaintSurface" />
+                           PaintSurface="SkCanvas_PaintSurface" />
         <Grid.Effects>
             <tt:TouchEffect Capture="True"
                             TouchAction="OnTouchEffectAction" />

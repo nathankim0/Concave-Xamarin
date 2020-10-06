@@ -10,8 +10,6 @@ using SkiaSharp.Views.Forms;
 
 namespace dream
 {
-
-
     public partial class MainPage : ContentPage
     {
         Dictionary<long, SKPath> inProgressPaths = new Dictionary<long, SKPath>();
@@ -31,7 +29,7 @@ namespace dream
             InitializeComponent();
         }
 
-        /*
+        
         private void SkCanvas_PaintSurface(object sender, SkiaSharp.Views.Forms.SKPaintSurfaceEventArgs e)
         {
             SKSurface surface;
@@ -62,8 +60,18 @@ namespace dream
                 path.LineTo(1080, y);
             }
             canvas.DrawPath(path, pathStroke);
+
+            foreach (SKPath path2 in completedPaths)
+            {
+                canvas.DrawPath(path2, paint);
+            }
+
+            foreach (SKPath path2 in inProgressPaths.Values)
+            {
+                canvas.DrawPath(path2, paint);
+            }
         }
-        */
+
         void OnTouchEffectAction(object sender, TouchActionEventArgs args)
         {
             switch (args.Type)
@@ -105,21 +113,7 @@ namespace dream
                     break;
             }
         }
-        void OnCanvasViewPaintSurface(object sender, SKPaintSurfaceEventArgs args)
-        {
-            SKCanvas canvas = args.Surface.Canvas;
-            canvas.Clear();
-
-            foreach (SKPath path in completedPaths)
-            {
-                canvas.DrawPath(path, paint);
-            }
-
-            foreach (SKPath path in inProgressPaths.Values)
-            {
-                canvas.DrawPath(path, paint);
-            }
-        }
+        
 
         SKPoint ConvertToPixel(Point pt)
         {
