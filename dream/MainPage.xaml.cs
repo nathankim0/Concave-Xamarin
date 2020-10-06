@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-
+﻿using System.Collections.Generic;
 using Xamarin.Forms;
-
 using TouchTracking;
-
 using SkiaSharp;
 using SkiaSharp.Views.Forms;
 using Xamarin.Essentials;
@@ -13,16 +9,14 @@ namespace dream
 {
     public partial class MainPage : ContentPage
     {
-        Dictionary<long, SKPath> inProgressPaths = new Dictionary<long, SKPath>();
-        List<SKPath> completedPaths = new List<SKPath>();
+        Dictionary<long, SKPoint> inProgressCircles = new Dictionary<long, SKPoint>();
+        List<SKPoint> completedCircles = new List<SKPoint>();
 
-        SKPaint paint = new SKPaint
+        SKPaint paintCircle = new SKPaint
         {
-            Style = SKPaintStyle.Stroke,
-            Color = SKColors.Blue,
-            StrokeWidth = 10,
-            StrokeCap = SKStrokeCap.Round,
-            StrokeJoin = SKStrokeJoin.Round
+            Style = SKPaintStyle.StrokeAndFill,
+            Color = Color.Black.ToSKColor(),
+            StrokeWidth = 5
         };
 
         public MainPage()
@@ -31,7 +25,7 @@ namespace dream
         }
 
         
-        private void SkCanvas_PaintSurface(object sender, SkiaSharp.Views.Forms.SKPaintSurfaceEventArgs e)
+        private void SkCanvas_PaintSurface(object sender, SKPaintSurfaceEventArgs e)
         {
             SKSurface surface;
             SKCanvas canvas;
@@ -52,26 +46,21 @@ namespace dream
 
             var mainDisplayInfo = DeviceDisplay.MainDisplayInfo;
 
-            for (int x = 10; x < mainDisplayInfo.Width; x += 100)
+            for (int x = 0; x < mainDisplayInfo.Width; x += (int)mainDisplayInfo.Width/10)
             {
                 path.MoveTo(x, 0);
                 path.LineTo(x, (float)mainDisplayInfo.Height);
             }
-            for (int y = 10; y < mainDisplayInfo.Height; y += 100)
+            for (int y = 0; y < mainDisplayInfo.Height; y += (int)mainDisplayInfo.Width / 10)
             {
                 path.MoveTo(0, y);
                 path.LineTo((float)mainDisplayInfo.Width, y);
             }
             canvas.DrawPath(path, pathStroke);
 
-            foreach (SKPath path2 in completedPaths)
+            foreach (SKPoint point in completedCircles)
             {
-                canvas.DrawPath(path2, paint);
-            }
-
-            foreach (SKPath path2 in inProgressPaths.Values)
-            {
-                canvas.DrawPath(path2, paint);
+                canvas.DrawCircle(point, 25, paintCircle);
             }
         }
 
@@ -80,39 +69,28 @@ namespace dream
             switch (args.Type)
             {
                 case TouchActionType.Pressed:
-                    if (!inProgressPaths.ContainsKey(args.Id))
+                    if (!inProgressCircles.ContainsKey(args.Id))
                     {
-                        SKPath path = new SKPath();
-                        path.MoveTo(ConvertToPixel(args.Location));
-                        inProgressPaths.Add(args.Id, path);
+                        inProgressCircles.Add(args.Id, ConvertToPixel(args.Location));
+                        //DisplayAlert(null, "x: " + ConvertToPixel(args.Location).X + "  y: " + ConvertToPixel(args.Location).Y, "cancel");
+
                         canvasView.InvalidateSurface();
                     }
                     break;
 
                 case TouchActionType.Moved:
-                    if (inProgressPaths.ContainsKey(args.Id))
-                    {
-                        SKPath path = inProgressPaths[args.Id];
-                        path.LineTo(ConvertToPixel(args.Location));
-                        canvasView.InvalidateSurface();
-                    }
                     break;
 
                 case TouchActionType.Released:
-                    if (inProgressPaths.ContainsKey(args.Id))
+                    
+                    if (inProgressCircles.ContainsKey(args.Id))
                     {
-                        completedPaths.Add(inProgressPaths[args.Id]);
-                        inProgressPaths.Remove(args.Id);
+                        completedCircles.Add(inProgressCircles[args.Id]);
                         canvasView.InvalidateSurface();
                     }
                     break;
 
                 case TouchActionType.Cancelled:
-                    if (inProgressPaths.ContainsKey(args.Id))
-                    {
-                        inProgressPaths.Remove(args.Id);
-                        canvasView.InvalidateSurface();
-                    }
                     break;
             }
         }
@@ -120,8 +98,13 @@ namespace dream
 
         SKPoint ConvertToPixel(Point pt)
         {
-            return new SKPoint((float)(canvasView.CanvasSize.Width * pt.X / canvasView.Width),
-                               (float)(canvasView.CanvasSize.Height * pt.Y / canvasView.Height));
+            var mainDisplayInfo = DeviceDisplay.MainDisplayInfo;
+
+            int x = (int)((int)canvasView.CanvasSize.Width * pt.X / canvasView.Width / (mainDisplayInfo.Width/10));
+            int y= (int)((int)canvasView.CanvasSize.Height * pt.Y / canvasView.Height / (mainDisplayInfo.Width / 10));
+
+            return new SKPoint((float)x* (float)(mainDisplayInfo.Width / 10) + (float)(mainDisplayInfo.Width / 10)-1,
+                               (float)y* (float)(mainDisplayInfo.Width / 10) + (float)(mainDisplayInfo.Width / 10)-1);
         }
     }
 }
